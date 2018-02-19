@@ -1,0 +1,79 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: SeaGreen;
+}
+
+
+p,
+li {
+  font-size: 18px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+
+
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 75px;
+  text-transform: none;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
+}
+
+
+
+a {
+  text-decoration: none;
+}
+.jumbotron.text-center {
+    margin-bottom: 0px;
+    background-image: url(/home/pallavi/Desktop/assignment-boostrap01/resources/img/image2.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+      padding-top: 20%;
+      padding-bottom: 20%;
+}
+
+
+#mainNav .navbar-brand {
+  margin-left: 50px;
+  color: #fed136;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+#mainNav .nav {
+    margin-right: 150px;
+  }
+}
+
+
+
+
+
+
+#service .glyphicon {
+    color: yellow;
+    font-size: 50px;
+}
